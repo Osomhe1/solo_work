@@ -4,7 +4,7 @@ export default function SignUp() {
   return (
     <div>
       <section>
-        <form className='Avenir  lg:w-2/5 m-3 md:w-3/5 md:m-auto lg:m-auto py-5 '>
+        <form className='Avenir  lg:w-2/5 m-3 md:w-3/5 md:m-auto lg:m-auto  py-28 '>
           <h2 className='text-center font-bold text-3xl md:text-5xl py-5 '>
             Create Account
           </h2>
@@ -47,19 +47,7 @@ export default function SignUp() {
               />
             </div>
           </div>
-          {/* <div>
-              <label className='inline-flex items-center cursor-pointer'>
-                <input
-                  id='customCheckLogin'
-                  type='checkbox'
-                  className='form-checkbox border-0 rounded text-gray-800 ml-1 w-5 h-5'
-                  style={{ transition: 'all .15s ease' }}
-                />
-                <span className='ml-2 text-sm font-semibold text-gray-700'>
-                  Remember me
-                </span>
-              </label>
-            </div> */}
+         
 
           <small>
             By clicking, you agree to the Terms of Service & Privacy Policy for

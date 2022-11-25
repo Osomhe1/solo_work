@@ -4,9 +4,9 @@ export default function Login() {
   return (
     <div>
       <section>
-        <form className='Avenir  lg:w-2/5 m-3 md:w-3/5 md:m-auto lg:m-auto py-5 '>
+        <form className='Avenir  lg:w-2/5 m-3 md:w-3/5 md:m-auto lg:m-auto py-28 '>
           <h2 className='text-center font-bold text-3xl md:text-5xl py-5 '>
-            Sign In
+            Login
           </h2>
           <p className='text-center  text  py-5 '>
             Enter your email and password below to access your solo.to account.
@@ -31,15 +31,7 @@ export default function Login() {
             />
           </div>
           <div className='relative w-full mb-3 md:flex justify-between md:space-x-4 '>
-            {/* <div className='w-full'>
-              <input
-                type='password'
-                className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-white rounded
-                   text-sm shadow focus:outline-none focus:ring w-full'
-                placeholder='Password'
-                style={{ transition: 'all .15s ease' }}
-              />
-            </div> */}
+           
             <div>
               <label className='inline-flex items-center cursor-pointer'>
                 <input
@@ -53,23 +45,10 @@ export default function Login() {
                 </span>
               </label>
             </div>
-            {/* <div className='w-full my-3 md:m-0'>
-              <input
-                type='password'
-                className='border-0 px-3 py-5 placeholder-gray-400 text-gray-700 bg-white rounded
-                   text-sm shadow focus:outline-none focus:ring w-full'
-                placeholder='Confirm Password'
-                style={{ transition: 'all .15s ease' }}
-              />
-            </div> */}
+            
             <div>
               <label className='inline-flex items-center cursor-pointer'>
-                {/* <input
-                  id='customCheckLogin'
-                  type='checkbox'
-                  className='form-checkbox border-0 rounded text-gray-800 ml-1 w-5 h-5'
-                  style={{ transition: 'all .15s ease' }}
-                /> */}
+               
                 <span
                   style={{ transition: 'all .15s ease' }}
                   className='ml-2 text-sm font-semibold hover:text-gray-200 text-gray-700'
